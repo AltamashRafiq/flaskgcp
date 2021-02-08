@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World, this is Altamash!'
+    return 'Hello World, this is Altamash!' # small change
 
 @app.route('/name/<value>')
 def name(value):
